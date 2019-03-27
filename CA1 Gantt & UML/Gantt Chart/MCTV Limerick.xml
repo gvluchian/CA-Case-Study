@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-01-14" view-index="0" gantt-divider-location="418" resource-divider-location="300" version="2.8.10" locale="en_IE">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Name" width="270" order="0"/>
+        <field id="tpd4" name="Begin date" width="74" order="1"/>
+        <field id="tpd5" name="End date" width="70" order="2"/>
+        <option id="color.recent"><![CDATA[#990033 #990000 #666600 #009999 #00cccc #3333ff #3399ff #6699ff #6666ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="165" order="0"/>
+        <field id="1" name="Default role" width="70" order="1"/>
+        <field id="4" name="Assignment role" width="61" order="2"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="9" name="MCTV Limerick LTD" color="#8cb6ce" meeting="false" start="2019-01-28" duration="66" complete="0" thirdDate="2019-01-28" thirdDate-constraint="1" expand="true"/>
+        <task id="29" name="Microsoft Database" color="#8cb6ce" meeting="false" start="2019-02-04" duration="15" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true" cost-manual-value="100.0" cost-calculated="false">
+            <task id="33" name="Suggestions from Staff" color="#8cb6ce" meeting="false" start="2019-02-04" duration="15" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="Tasks" color="#8cb6ce" meeting="false" start="2019-02-04" duration="7" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="37" name="Queries" color="#8cb6ce" meeting="false" start="2019-02-04" duration="7" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="38" name="SQL Statements" color="#8cb6ce" meeting="false" start="2019-02-04" duration="7" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Reports and Forms" color="#8cb6ce" meeting="false" start="2019-02-04" duration="7" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="45" name="UML Chart" color="#3399ff" meeting="false" start="2019-02-25" duration="6" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true">
+            <task id="56" name="Research" color="#3399ff" meeting="false" start="2019-02-25" duration="6" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="71" name="UML Chart" color="#3399ff" meeting="false" start="2019-03-01" duration="2" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="68" name="Poster" color="#3333ff" meeting="false" start="2019-03-07" duration="7" complete="0" thirdDate="2019-02-25" thirdDate-constraint="0" expand="true">
+            <task id="69" name="Brainstorming" color="#3333ff" meeting="false" start="2019-03-07" duration="7" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="78" name="Poster creation" color="#3333ff" meeting="false" start="2019-03-11" duration="4" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="83" name="Gantt Chart" color="#009999" meeting="false" start="2019-01-29" duration="39" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true">
+            <task id="87" name="Trello Weekly Update" color="#00cccc" meeting="false" start="2019-01-29" duration="39" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="90" name="Create Gantt Chart" color="#00cccc" meeting="false" start="2019-03-15" duration="4" complete="0" thirdDate="2019-03-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="92" name="Wordpress Website" color="#009999" meeting="false" start="2019-03-18" duration="8" complete="0" thirdDate="2019-03-18" thirdDate-constraint="0" expand="true">
+            <task id="95" name="Create Shop" color="#009999" meeting="false" start="2019-03-18" duration="6" complete="0" thirdDate="2019-01-14" thirdDate-constraint="0" expand="true"/>
+            <task id="97" name="Individual Pages" color="#009999" meeting="false" start="2019-03-21" duration="5" complete="0" thirdDate="2019-03-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="98" name="Individual Tasks" color="#666600" meeting="false" start="2019-03-12" duration="13" complete="0" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true">
+            <task id="100" name="Research" color="#666600" meeting="false" start="2019-03-12" duration="7" complete="0" thirdDate="2019-03-12" thirdDate-constraint="0" expand="true"/>
+            <task id="102" name="Report" color="#666600" meeting="false" start="2019-03-20" duration="4" complete="0" thirdDate="2019-03-20" thirdDate-constraint="0" expand="true"/>
+            <task id="101" name="User Guide" color="#666600" meeting="false" start="2019-03-25" duration="4" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="104" name="Presentation" color="#990033" meeting="false" start="2019-04-04" duration="12" complete="0" thirdDate="2019-04-04" thirdDate-constraint="0" expand="true">
+            <task id="106" name="Introduction Company" color="#990000" meeting="false" start="2019-04-04" duration="12" complete="0" thirdDate="2019-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="111" name="Gantt Chart" color="#990033" meeting="false" start="2019-04-08" duration="1" complete="0" thirdDate="2019-04-08" thirdDate-constraint="0" expand="true"/>
+            <task id="110" name="Database and UML" color="#990000" meeting="false" start="2019-04-10" duration="1" complete="0" thirdDate="2019-04-10" thirdDate-constraint="0" expand="true"/>
+            <task id="113" name="CRM Presentation" color="#990033" meeting="false" start="2019-04-12" duration="1" complete="0" thirdDate="2019-04-12" thirdDate-constraint="0" expand="true"/>
+            <task id="109" name="Website Presentation" color="#990000" meeting="false" start="2019-04-15" duration="1" complete="0" thirdDate="2019-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="114" name="Collaborative Presentation" color="#990033" meeting="false" start="2019-04-15" duration="1" complete="0" thirdDate="2019-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="108" name="Branding &amp; Color Choice" color="#990000" meeting="false" start="2019-04-15" duration="1" complete="0" thirdDate="2019-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="107" name="Future of the company" color="#990033" meeting="false" start="2019-04-18" duration="1" complete="0" thirdDate="2019-04-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Gavin Kelly" function="Default:0" contacts="x18137521@student.ncirl.ie" phone=""/>
+        <resource id="1" name="Carles Recanses" function="Default:0" contacts="x18118020@student.ncirl.ie" phone=""/>
+        <resource id="2" name="Danny " function="Default:0" contacts="x18111572@student.ncirl.ie" phone=""/>
+        <resource id="3" name="Valentin Gabriel Luchian" function="Default:0" contacts="x18103553@student.ncirl.ie" phone=""/>
+        <resource id="4" name="Gavin Kelly" function="4" contacts="x18137521@student.ncirl.ie" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="29" resource-id="0" function="4" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Financial Accountant"/>
+        <role id="2" name="Social media Officer"/>
+        <role id="3" name="IT Manager"/>
+        <role id="4" name="Sales &amp; Marketing"/>
+    </roles>
+</project>
